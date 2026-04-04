@@ -167,13 +167,13 @@ If 5+ related keywords validated, output a series plan:
 
 ## Related Skills
 
-- **niche-scout** -- Deep-dive validation on any keyword discovered here
-- **keyword-fill** -- Fill keyword boxes after selecting your niche
-- **book-architect** -- Build the outline once niche is confirmed
-- **pricing-strategist** -- Price your book against the competitor comps you found here
-- **amazon-ads** -- Target competitor ASINs discovered during reverse-engineering
-- **listing-optimizer** -- Study competitor descriptions before writing yours
-- **cover-brief** -- Find reference covers from top sellers in your category to include in the design brief
+- **[[niche-scout|niche-scout]]** -- Deep-dive validation on any keyword discovered here
+- **[[keyword-fill|keyword-fill]]** -- Fill keyword boxes after selecting your niche
+- **[[book-architect|book-architect]]** -- Build the outline once niche is confirmed
+- **[[pricing-strategist|pricing-strategist]]** -- Price your book against the competitor comps you found here
+- **[[amazon-ads|amazon-ads]]** -- Target competitor ASINs discovered during reverse-engineering
+- **[[listing-optimizer|listing-optimizer]]** -- Study competitor descriptions before writing yours
+- **[[cover-brief|cover-brief]]** -- Find reference covers from top sellers in your category to include in the design brief
 
 ## Related Frameworks
 

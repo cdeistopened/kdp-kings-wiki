@@ -171,9 +171,9 @@ If they can answer all five with specifics about their own book, they don't need
 
 ## Related Skills
 
-- **pricing-strategist** — Quick pricing calculator (use after this skill for execution)
-- **launch-sequence** — Pricing phases integrated into launch plan
-- **amazon-ads** — ACOS benchmarks depend on price/margin
+- **[[pricing-strategist|pricing-strategist]]** — Quick pricing calculator (use after this skill for execution)
+- **[[launch-sequence|launch-sequence]]** — Pricing phases integrated into launch plan
+- **[[amazon-ads|amazon-ads]]** — ACOS benchmarks depend on price/margin
 
 ## Related Frameworks
 

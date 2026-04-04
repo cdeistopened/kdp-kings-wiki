@@ -23,7 +23,7 @@ Generate a complete book manuscript one section at a time, following Sean Dollwe
 ## Prerequisites
 
 - Complete book outline from `/book-architect` (8 chapters, 3 subchapters, 3 sections each)
-- Pain points list from Phase 1 of book-architect
+- Pain points list from Phase 1 of [[book-architect|book-architect]]
 - Target keyword and title/subtitle finalized
 
 ---
@@ -200,8 +200,8 @@ You do not have to use AI for the entire manuscript. Many successful publishers 
 ## Related Skills
 
 - **book-architect** -- Produces the outline this skill consumes (run FIRST)
-- **listing-optimizer** -- Write description after manuscript is complete
-- **cover-brief** -- Can run in parallel with manuscript drafting
+- **[[listing-optimizer|listing-optimizer]]** -- Write description after manuscript is complete
+- **[[cover-brief|cover-brief]]** -- Can run in parallel with manuscript drafting
 
 ## Related Frameworks
 

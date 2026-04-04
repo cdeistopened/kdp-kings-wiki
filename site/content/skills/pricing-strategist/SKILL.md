@@ -222,10 +222,10 @@ Price at the top of what your market will bear. Build enough margin to absorb fu
 
 ## Related Skills
 
-- **competitor-reverse-engineer** -- Price against competitor comps discovered during reverse-engineering
-- **upload-checklist** -- Make DRM and KDP Select decisions before finalizing pricing, then apply during upload
-- **launch-sequence** -- Pricing phases integrated into launch plan
-- **amazon-ads** -- ACOS benchmarks depend on price/margin
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Price against competitor comps discovered during reverse-engineering
+- **[[upload-checklist|upload-checklist]]** -- Make DRM and KDP Select decisions before finalizing pricing, then apply during upload
+- **[[launch-sequence|launch-sequence]]** -- Pricing phases integrated into launch plan
+- **[[amazon-ads|amazon-ads]]** -- ACOS benchmarks depend on price/margin
 
 ## Related Frameworks
 

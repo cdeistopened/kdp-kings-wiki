@@ -198,11 +198,11 @@ Hook: [Quote, fact, or statistic]
 
 ## Related Skills
 
-- **niche-scout** -- Validate niche before architecting (run FIRST)
-- **keyword-fill** -- Identify keywords for title/subtitle integration
-- **competitor-reverse-engineer** -- Study competitor TOCs and chapter structures to identify content gaps and reader expectations
-- **manuscript-drafter** -- Generate content section-by-section from this outline
-- **cover-brief** -- Create cover design brief using the chosen title
+- **[[niche-scout|niche-scout]]** -- Validate niche before architecting (run FIRST)
+- **[[keyword-fill|keyword-fill]]** -- Identify keywords for title/subtitle integration
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Study competitor TOCs and chapter structures to identify content gaps and reader expectations
+- **[[manuscript-drafter|manuscript-drafter]]** -- Generate content section-by-section from this outline
+- **[[cover-brief|cover-brief]]** -- Create cover design brief using the chosen title
 
 ## Related Frameworks
 

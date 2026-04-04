@@ -180,16 +180,16 @@ The first book doesn't need to be perfect. It needs to exist.
 
 ## Related Skills
 
-- **niche-scout** — Phase 2
-- **keyword-fill** — Phase 3
-- **book-architect** — Phases 3-4
-- **manuscript-drafter** — Phase 4
-- **cover-brief** — Phase 5
-- **listing-optimizer** — Phase 6
-- **upload-checklist** — Phase 6
-- **pricing-strategist** — Phase 7
-- **launch-sequence** — Phase 7
-- **amazon-ads** — Phase 7
+- **[[niche-scout|niche-scout]]** — Phase 2
+- **[[keyword-fill|keyword-fill]]** — Phase 3
+- **[[book-architect|book-architect]]** — Phases 3-4
+- **[[manuscript-drafter|manuscript-drafter]]** — Phase 4
+- **[[cover-brief|cover-brief]]** — Phase 5
+- **[[listing-optimizer|listing-optimizer]]** — Phase 6
+- **[[upload-checklist|upload-checklist]]** — Phase 6
+- **[[pricing-strategist|pricing-strategist]]** — Phase 7
+- **[[launch-sequence|launch-sequence]]** — Phase 7
+- **[[amazon-ads|amazon-ads]]** — Phase 7
 
 ## Related Frameworks
 

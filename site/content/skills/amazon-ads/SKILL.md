@@ -314,11 +314,11 @@ Outsource once you clear $500/month in revenue.
 
 ## Related Skills
 
-- **launch-sequence** -- Ads start in Phase 3 of launch (coordinate timing)
-- **pricing-strategist** -- Price determines ACOS breakeven threshold
-- **keyword-fill** -- Same keyword research feeds both backend boxes and ad campaigns
-- **competitor-reverse-engineer** -- Find competitor ASINs to target in Manual Product campaigns
-- **listing-optimizer** -- Strong description/categories improve click-to-sale conversion
+- **[[launch-sequence|launch-sequence]]** -- Ads start in Phase 3 of launch (coordinate timing)
+- **[[pricing-strategist|pricing-strategist]]** -- Price determines ACOS breakeven threshold
+- **[[keyword-fill|keyword-fill]]** -- Same keyword research feeds both backend boxes and ad campaigns
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Find competitor ASINs to target in Manual Product campaigns
+- **[[listing-optimizer|listing-optimizer]]** -- Strong description/categories improve click-to-sale conversion
 
 ## Related Frameworks
 

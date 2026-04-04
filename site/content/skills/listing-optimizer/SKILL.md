@@ -213,11 +213,11 @@ From Sean Dollwet's reviews of real publisher submissions:
 
 ## Related Skills
 
-- **niche-scout** -- Validate niche + get BSR data for category selection (run FIRST)
-- **keyword-fill** -- Fill keyword boxes, including category reinforcement terms
-- **competitor-reverse-engineer** -- Study competitor descriptions before writing yours to identify what works and what to beat
-- **cover-brief** -- Design brief for the cover (can run in parallel)
-- **upload-checklist** -- Final pre-upload verification
+- **[[niche-scout|niche-scout]]** -- Validate niche + get BSR data for category selection (run FIRST)
+- **[[keyword-fill|keyword-fill]]** -- Fill keyword boxes, including category reinforcement terms
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Study competitor descriptions before writing yours to identify what works and what to beat
+- **[[cover-brief|cover-brief]]** -- Design brief for the cover (can run in parallel)
+- **[[upload-checklist|upload-checklist]]** -- Final pre-upload verification
 
 ## Related Frameworks
 

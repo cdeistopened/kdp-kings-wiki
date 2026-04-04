@@ -271,10 +271,10 @@ A launch is not a one-time event. Every book needs periodic re-investment.
 
 ## Related Skills
 
-- **pricing-strategist** -- Set prices for each phase (run BEFORE)
-- **amazon-ads** -- Campaign setup for Day 6+ (run BEFORE or in parallel)
-- **upload-checklist** -- Ensure everything is ready before launch
-- **listing-optimizer** -- Description/categories must be finalized before launch
+- **[[pricing-strategist|pricing-strategist]]** -- Set prices for each phase (run BEFORE)
+- **[[amazon-ads|amazon-ads]]** -- Campaign setup for Day 6+ (run BEFORE or in parallel)
+- **[[upload-checklist|upload-checklist]]** -- Ensure everything is ready before launch
+- **[[listing-optimizer|listing-optimizer]]** -- Description/categories must be finalized before launch
 
 ## Related Frameworks
 

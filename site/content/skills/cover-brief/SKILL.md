@@ -197,10 +197,10 @@ Include these criteria in the design brief so the designer tests against them.
 
 ## Related Skills
 
-- **book-architect** -- Provides title/subtitle for the brief (run FIRST)
-- **competitor-reverse-engineer** -- Find reference covers from top sellers in your category to include in the design brief
-- **listing-optimizer** -- Description and categories (run in parallel or after)
-- **upload-checklist** -- Final pre-upload verification including cover specs
+- **[[book-architect|book-architect]]** -- Provides title/subtitle for the brief (run FIRST)
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Find reference covers from top sellers in your category to include in the design brief
+- **[[listing-optimizer|listing-optimizer]]** -- Description and categories (run in parallel or after)
+- **[[upload-checklist|upload-checklist]]** -- Final pre-upload verification including cover specs
 
 ## Related Frameworks
 

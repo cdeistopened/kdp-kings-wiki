@@ -189,10 +189,10 @@ Print books require one -- free or purchased. ISBNs through Bowker (US) run $125
 
 ## Related Skills
 
-- **listing-optimizer** -- Description, categories, bio (run BEFORE upload)
-- **keyword-fill** -- 7 keyword boxes (run BEFORE upload)
-- **pricing-strategist** -- Set optimal price and make KDP Select/DRM decisions BEFORE uploading
-- **launch-sequence** -- Plan launch timeline (run AFTER upload)
+- **[[listing-optimizer|listing-optimizer]]** -- Description, categories, bio (run BEFORE upload)
+- **[[keyword-fill|keyword-fill]]** -- 7 keyword boxes (run BEFORE upload)
+- **[[pricing-strategist|pricing-strategist]]** -- Set optimal price and make KDP Select/DRM decisions BEFORE uploading
+- **[[launch-sequence|launch-sequence]]** -- Plan launch timeline (run AFTER upload)
 
 ## Related Frameworks
 

@@ -200,10 +200,10 @@ The launch gives you a head start. The ongoing work — ads, content, catalog bu
 
 ## Related Skills
 
-- **launch-sequence** — Quick launch checklist (use after this skill for execution)
-- **amazon-ads** — Full ad campaign setup
-- **pricing-strategist** — Pricing calculator for each phase
-- **first-book-walkthrough** — If the user hasn't published yet, start there instead
+- **[[launch-sequence|launch-sequence]]** — Quick launch checklist (use after this skill for execution)
+- **[[amazon-ads|amazon-ads]]** — Full ad campaign setup
+- **[[pricing-strategist|pricing-strategist]]** — Pricing calculator for each phase
+- **[[first-book-walkthrough|first-book-walkthrough]]** — If the user hasn't published yet, start there instead
 
 ## Related Frameworks
 

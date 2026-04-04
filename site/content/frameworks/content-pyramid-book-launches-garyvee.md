@@ -151,4 +151,4 @@ After applying this framework, you should have:
 - A batch production schedule (7 hours total) for all content
 - A platform distribution strategy (which content goes where)
 
-> Source: Gary Vaynerchuk's Content Pyramid methodology from "Day Trading Attention" and GaryVee Content Model, adapted for Amazon KDP book launches. Cross-reference: KDP Kings 30-Day Launch Sequence, Sean Dollwet's 7 social media video formats.
+> Source: Gary Vaynerchuk's Content Pyramid methodology from "Day Trading Attention" and GaryVee Content Model, adapted for Amazon KDP book launches. Cross-reference: KDP Kings [[30-day-launch-sequence|30-Day Launch Sequence]], Sean Dollwet's 7 social media video formats.

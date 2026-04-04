@@ -12,7 +12,7 @@ cross-reference:
 
 ## When to Use
 
-Use this when you're deciding how to price a book (or series of books) on Amazon and you want to go beyond the mechanical royalty math. The KDP Kings Pricing Decision Matrix tells you which royalty brackets exist and how to avoid dead zones. This article tells you how to make buyers perceive your book as worth more than its price, using Alex Hormozi's pricing psychology adapted to the Amazon publishing context.
+Use this when you're deciding how to price a book (or series of books) on Amazon and you want to go beyond the mechanical royalty math. The KDP Kings [[pricing-decision-matrix|Pricing Decision Matrix]] tells you which royalty brackets exist and how to avoid dead zones. This article tells you how to make buyers perceive your book as worth more than its price, using Alex Hormozi's pricing psychology adapted to the Amazon publishing context.
 
 Also use this when you're launching a box set, planning a series pricing strategy, or trying to figure out why a well-written book in a proven niche isn't converting browsers into buyers.
 

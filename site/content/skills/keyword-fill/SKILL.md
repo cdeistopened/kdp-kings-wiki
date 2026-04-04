@@ -156,10 +156,10 @@ After the book is live with ads running, keywords should evolve:
 
 ## Related Skills
 
-- **niche-scout** -- Validate the niche before filling keywords (run FIRST)
-- **competitor-reverse-engineer** -- Mine competitor titles and subtitles for keyword ideas you'd never find through autocomplete alone
-- **listing-optimizer** -- Write description + select categories (run AFTER keywords)
-- **amazon-ads** -- Set up campaigns that feed keyword optimization data
+- **[[niche-scout|niche-scout]]** -- Validate the niche before filling keywords (run FIRST)
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** -- Mine competitor titles and subtitles for keyword ideas you'd never find through autocomplete alone
+- **[[listing-optimizer|listing-optimizer]]** -- Write description + select categories (run AFTER keywords)
+- **[[amazon-ads|amazon-ads]]** -- Set up campaigns that feed keyword optimization data
 
 ## Related Frameworks
 

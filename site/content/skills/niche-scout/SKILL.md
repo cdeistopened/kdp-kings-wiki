@@ -128,10 +128,10 @@ Before committing to a niche, ALL boxes must check:
 
 ## Related Skills
 
-- **keyword-fill** — Fill the 7 Amazon keyword boxes (run AFTER niche is validated)
-- **competitor-reverse-engineer** — Validate niches by studying top sellers' catalogs and identifying beatable competition
-- **book-architect** — Generate outline + title/subtitle (run AFTER niche + keywords)
-- **listing-optimizer** — Write description + select categories
+- **[[keyword-fill|keyword-fill]]** — Fill the 7 Amazon keyword boxes (run AFTER niche is validated)
+- **[[competitor-reverse-engineer|competitor-reverse-engineer]]** — Validate niches by studying top sellers' catalogs and identifying beatable competition
+- **[[book-architect|book-architect]]** — Generate outline + title/subtitle (run AFTER niche + keywords)
+- **[[listing-optimizer|listing-optimizer]]** — Write description + select categories
 - **deep-research** — For deeper market analysis on borderline niches
 - **seomachine** — For Google keyword data (complements Amazon data)
 
