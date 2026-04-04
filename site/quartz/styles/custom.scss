@@ -1,189 +1,406 @@
 @use "./base.scss";
 
 // ═══════════════════════════════════════════════
-// Scholarly Curator — MFM Wiki Design System
+// CIA Wiki Theme v2 — "Design Journal Encyclopedia"
+// Cream/gold/charcoal. Wikipedia IA. Premium type.
 // ═══════════════════════════════════════════════
 
-// ── Headings: serif italic signature ──
-h1, h2, h3 {
-  font-style: italic;
-  letter-spacing: -0.01em;
+// ── Global ──
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ── Typography ──
+h1, h2, h3, h4 {
+  font-family: "Space Grotesk", var(--headerFont), sans-serif;
+  letter-spacing: -0.02em;
+  font-style: normal;
 }
 
 h1 {
-  font-size: 2.25rem;
-  line-height: 1.15;
-  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
 }
 
-// ── Blockquotes: larger serif with emerald border ──
+h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+// ── Body text ──
+article .article-content {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+// ── Sidebar ──
+.left {
+  background: color-mix(in srgb, var(--light) 92%, var(--lightgray));
+}
+
+.page-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: 1.15rem;
+}
+
+.explorer {
+  font-family: "Inter", var(--bodyFont), sans-serif;
+  font-size: 0.875rem;
+}
+
+.explorer .folder-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--darkgray);
+}
+
+// Active explorer item
+.explorer .folder-container .folder-outer:has(> .content > a.is-current) > .content > a,
+.explorer a.is-current {
+  color: var(--secondary);
+  border-left: 3px solid var(--secondary);
+  padding-left: 8px;
+  margin-left: -11px;
+}
+
+.explorer li > a {
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+// ── Search ──
+#search-container input {
+  font-family: "Inter", sans-serif;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  transition: border-color 0.15s ease;
+
+  &::placeholder {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+  }
+
+  &:focus {
+    border-color: var(--secondary);
+    outline: none;
+  }
+}
+
+// ── Breadcrumbs ──
+.breadcrumb-container {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+  color: var(--darkgray);
+}
+
+// ── Content meta ──
+.content-meta {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--darkgray);
+}
+
+// ── Article title area ──
+.article-title {
+  margin-bottom: 0.25rem;
+}
+
+// Gold rule below title
+.article-title + .content-meta {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--secondary);
+}
+
+// When no content-meta, put rule after tag list
+.tag-list {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--secondary);
+}
+
+// ── Blockquotes ──
 blockquote {
   border-left: 4px solid var(--secondary);
-  padding: 1rem 0 1rem 2rem;
-  margin: 2rem 0;
-  font-family: "Newsreader", serif;
+  background: color-mix(in srgb, var(--lightgray) 40%, var(--light));
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
   font-style: italic;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: var(--darkgray);
 
   p {
     margin: 0;
   }
-}
 
-// ── Article cards: tonal layering, no borders ──
-.article-card {
-  background: var(--lightgray);
-  padding: 1.25rem 1.5rem;
-  border-radius: 6px;
-  transition: background 0.2s ease, transform 0.15s ease;
-
-  &:hover {
-    background: color-mix(in srgb, var(--lightgray) 85%, var(--secondary));
-    transform: translateY(-1px);
-  }
-
-  .card-category {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.65rem;
-    font-weight: 600;
-    color: var(--secondary);
-    margin-bottom: 0.35rem;
-  }
-
-  .card-title {
-    font-family: "Newsreader", serif;
-    font-style: italic;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-    color: var(--dark);
-  }
-
-  .card-desc {
+  // Attribution
+  p:last-child em,
+  p:last-child strong {
+    font-family: "IBM Plex Mono", monospace;
     font-size: 0.85rem;
-    color: var(--darkgray);
-    line-height: 1.45;
-  }
-
-  .card-cite {
-    font-size: 0.75rem;
-    color: var(--gray);
-    margin-top: 0.5rem;
-  }
-}
-
-// ── Category labels ──
-.category-label {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.65rem;
-  font-weight: 600;
-  color: var(--secondary);
-}
-
-// ── Researcher's Note blocks ──
-.researchers-note {
-  background: color-mix(in srgb, var(--lightgray) 60%, var(--light));
-  border-left: 3px solid var(--secondary);
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
-  border-radius: 0 4px 4px 0;
-  font-size: 0.9rem;
-  font-style: italic;
-  color: var(--darkgray);
-  line-height: 1.55;
-
-  strong:first-child {
     font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 0.7rem;
-    color: var(--secondary);
+    color: var(--darkgray);
   }
 }
 
-// ── Link styling ──
+// ── Links ──
 article a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: color-mix(in srgb, var(--secondary) 40%, transparent);
+  color: var(--secondary);
+  text-decoration: none;
   transition: text-decoration-color 0.15s ease;
 
   &:hover {
-    text-decoration-color: var(--secondary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  &:visited {
+    color: color-mix(in srgb, var(--secondary) 70%, var(--gray));
   }
 }
 
-// ── Stats line ──
-.stats-line {
+// ── Tags ──
+a.internal.tag-link {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--secondary);
+  background: transparent;
+  color: var(--secondary);
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: color-mix(in srgb, var(--secondary) 10%, transparent);
+  }
+}
+
+:is([saved-theme="dark"]) a.internal.tag-link {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
+// ── Table of Contents ──
+.toc {
   font-size: 0.85rem;
-  color: var(--gray);
-  letter-spacing: 0.02em;
-  padding: 1rem 0;
-  border-top: 1px solid var(--lightgray);
-  margin-top: 2rem;
 }
 
-// ── Homepage hero ──
-.wiki-hero {
-  text-align: center;
-  padding: 2rem 0 2.5rem;
-  max-width: 780px;
-  margin: 0 auto;
+.toc .depth-1 > a {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+}
 
-  h1 {
-    font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-    color: var(--dark);
+.toc a {
+  color: var(--darkgray);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--secondary);
   }
+}
 
-  .hero-subtitle {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: var(--darkgray);
-    margin-bottom: 1.5rem;
-  }
+.toc .active {
+  color: var(--secondary);
+  border-left: 2px solid var(--secondary);
+  padding-left: 6px;
+}
 
-  .hero-cta {
-    display: inline-block;
-    padding: 0.65rem 1.5rem;
-    background: var(--secondary);
-    color: var(--light);
-    font-size: 0.8rem;
+// ── Graph ──
+.graph > svg .node > circle {
+  fill: var(--secondary);
+}
+
+.graph > svg .node.active > circle {
+  fill: var(--tertiary);
+}
+
+.graph > svg line {
+  stroke: var(--lightgray);
+}
+
+// ── Backlinks ──
+.backlinks {
+  font-size: 0.875rem;
+
+  h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.04em;
+    color: var(--darkgray);
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  a {
+    color: var(--secondary);
     text-decoration: none;
-    border-radius: 4px;
-    transition: background 0.15s ease;
 
     &:hover {
-      background: var(--tertiary);
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 }
 
-// ── Skills grid (2-col on homepage) ──
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  margin: 1rem 0;
+// ── Footer ──
+footer {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: var(--gray);
+}
 
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr;
+footer a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--secondary);
   }
 }
 
-// ── Browse directory grid ──
-.home-directory {
+footer::after {
+  content: "A Creative Intelligence Agency wiki";
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.35;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+// ── Homepage ──
+.page[data-slug="index"] {
+  // Hide the article title (redundant with sidebar page title)
+  .article-title {
+    display: none;
+  }
+
+  // Hide date/read-time on homepage
+  .content-meta {
+    display: none;
+  }
+
+  // Remove gold rule on homepage
+  .tag-list {
+    border-bottom: none;
+  }
+}
+
+// ── Disclaimer banner ──
+.wiki-disclaimer {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--gray);
+  text-align: center;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--lightgray) 30%, var(--light));
+
+  .source-links {
+    display: inline-flex;
+    gap: 1rem;
+    margin-left: 0.5rem;
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+      font-weight: 500;
+      white-space: nowrap;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Stats row
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.stat {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+
+      .stat-value {
+        color: var(--tertiary);
+      }
+    }
+  }
+}
+
+.stat-value {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--secondary);
+  line-height: 1;
+}
+
+.stat-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-top: 4px;
+}
+
+// Browse grid
+.browse-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   margin: 2rem 0;
 
@@ -193,29 +410,29 @@ article a {
   }
 }
 
-.home-column {
+.browse-section {
   h3 {
     font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     font-weight: 600;
     color: var(--secondary);
     font-style: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--lightgray);
   }
-}
 
-// ── People list (text-only) ──
-.people-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
   li {
-    padding: 0.4rem 0;
-    border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+    padding: 0.35rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 50%, transparent);
+    font-size: 0.9rem;
 
     &:last-child {
       border-bottom: none;
@@ -223,72 +440,31 @@ article a {
   }
 
   a {
-    font-size: 0.9rem;
-    text-decoration: none;
     color: var(--dark);
+    text-decoration: none;
 
     &:hover {
       color: var(--secondary);
     }
   }
 
-  .person-role {
+  .item-desc {
     font-size: 0.75rem;
     color: var(--gray);
     display: block;
-    margin-top: 0.1rem;
+    margin-top: 1px;
   }
 }
 
-// ── Framework cards grid ──
-.framework-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-// ── Episode list ──
-.episode-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-  li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
-    font-size: 0.9rem;
-
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-
-  .ep-date {
-    font-size: 0.72rem;
-    color: var(--gray);
-    font-variant-numeric: tabular-nums;
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--dark);
-
-    &:hover {
-      color: var(--secondary);
-    }
-  }
-}
-
-// ── View-all links ──
 .view-all {
   display: inline-block;
-  margin-top: 0.75rem;
-  font-size: 0.8rem;
-  font-weight: 600;
+  margin-top: 0.5rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
   color: var(--secondary);
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
 
   &:hover {
     text-decoration: underline;
@@ -296,11 +472,55 @@ article a {
   }
 }
 
-// ── Footer: simple credit ──
-footer {
-  font-size: 0.8rem;
-  color: var(--gray);
-  border-top: 1px solid var(--lightgray);
-  padding-top: 1.5rem;
-  margin-top: 3rem;
+// ── Callouts ──
+.callout {
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--lightgray) 30%, var(--light));
+
+  .callout-title {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+  }
+}
+
+// ── Code blocks ──
+pre {
+  background: color-mix(in srgb, var(--lightgray) 40%, var(--light));
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+}
+
+// ── Tables ──
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+
+  th {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid var(--secondary);
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+  }
+
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+}
+
+// ── Responsive ──
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .stats-row {
+    gap: 1.5rem;
+  }
 }
